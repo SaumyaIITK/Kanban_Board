@@ -1,0 +1,69 @@
+/* App Container */
+.app-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* Kanban Board */
+  .kanban-board {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .kanban-column {
+    background-color: #f4f4f4;
+    padding: 15px;
+    width: 30%;
+    border-radius: 5px;
+  }
+  
+  .kanban-column h2 {
+    text-align: left;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Ticket Card */
+  .ticket-card {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .ticket-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .ticket-card h3 {
+    color: #0070f3;
+    font-size: 1.2em;
+  }
+  
+  .priority-icon, .status-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .ticket-card p {
+    color: #555;
+    font-size: 0.9em;
+  }
+  
